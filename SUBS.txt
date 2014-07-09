@@ -1,0 +1,12 @@
+from itertools import tee, izip, islice
+t="abc"
+c=len(t)
+s="abcabcdefghijklmnop"
+t=tee(s, c)
+for i, j in enumerate (t):
+	next(islice(j, i, i), None)
+
+p=["".join(k) for k in izip(*t)]
+for item in p:
+	if item == t:
+		print item,

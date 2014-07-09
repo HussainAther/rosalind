@@ -1,0 +1,4 @@
+def dom_offspring(a, b, c, d, e):
+	t=0
+	t+=2*a+2*b+2*c+1.5*d+e
+	return t

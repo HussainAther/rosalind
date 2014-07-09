@@ -1,0 +1,8 @@
+import fileinput
+def even_lines1():
+	s=open("/Users/Mcfoofa/Documents/dataset.txt", "r")
+	k = " "
+	for i in s.read():
+		if s.read().filelineno(i)%2==0:
+			k.join(i)
+	return k

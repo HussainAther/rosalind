@@ -1,0 +1,13 @@
+def mort_fib(n, m):
+	p=[1]
+	y=[ ]
+	for i in range(0,n-1):
+		for x in range(0, len(p)-1):
+			p[x]=p[x]+1
+		for i in p:
+			if i > 1: 
+				y.append(1)
+			if i==m:
+				p.pop(i)
+		p.append(y)
+	return p

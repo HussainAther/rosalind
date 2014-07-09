@@ -1,0 +1,6 @@
+from __future__ import division
+def dom_phen1(a, b, c):
+	t=(a+b+c)
+	p=((2*a+b)/(2*t))
+	q=(1-p)
+	return (1-q**2)

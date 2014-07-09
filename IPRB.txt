@@ -1,0 +1,13 @@
+from __future__ import division
+def dom_phen(k,m,n):
+	t=k+m+n
+	p1=(k/t)*((k-1)/(t-1))
+	p2=(k/t)*(m/(t-1))
+	p3=(k/t)*(n/(t-1))
+	p4=(m/t)*(k/(t-1))
+	p5=.75*(m/t)*((m-1)/(t-1))
+	p6=.5*(m/t)*(n/(t-1))
+	p7=(n/t)*(k/(t-1))
+	p8=.5*(n/t)*(m/(t-1))
+	prob=p1+p2+p3+p4+p5+p6+p7+p8
+	return prob
