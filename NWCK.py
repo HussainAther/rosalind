@@ -8,7 +8,7 @@ for line in f:
 		g=line.split(" ")[1]
 		a=2
 		b=abs(prevLine.find(e))
-		h=abs(prevLine.find(g))
+		h=abs(prevLine.find(g)) 
 		if b<h:
 			for z in prevLine[b:h]:
 				if z=="(":	
