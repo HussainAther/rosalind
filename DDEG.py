@@ -1,7 +1,7 @@
 f=open("/Users/Mcfoofa/Downloads/rosalind_ddeg.txt", "r")
 n=1000
 l={}
-c=[ ]
+c=[ ] 
 for i in range(1,n+1):
 	l[i]=""
 for i in f.readlines():
