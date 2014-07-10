@@ -10,4 +10,4 @@ for j in t:
 	else:
 		c.append(d+c[-1])
 for y in c:
-	print y,
+	print y, 
