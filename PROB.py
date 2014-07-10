@@ -10,4 +10,4 @@ for i in e:
 	gc=float(float(i)/2)
 	at=float((1-float(i))/2)
 	t=(gc**c)*(at**a)
-	print math.log10(t),
+	print math.log10(t), 
