@@ -13,7 +13,7 @@ for item in l:
 	if item[0]==">":
 		w=item[1:]
 		p[w]=l[count+1]
-		count+=1
+		count+=1 
 	else:
 		count+=1
 k = [ ] 
