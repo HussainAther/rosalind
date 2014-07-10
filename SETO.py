@@ -10,7 +10,7 @@ c5=[ ]
 c6=[ ]
 for i in a:
 	if i not in c1:
-		c1.append(i)
+		c1.append(i) 
 	if i in b:
 		c2.append(i)
 	if i not in b:
