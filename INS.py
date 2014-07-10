@@ -10,7 +10,7 @@ for i in range(814):
 		a1[k-1]=c
 		s+=1
 		k=k-1
-	print a1
+	print a1 
 print s 
 		
 	
