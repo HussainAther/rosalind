@@ -1,4 +1,4 @@
-import itertools
+import itertools 
 f=open("/Users/Mcfoofa/Downloads/rosalind-bfs.txt", "r")
 n=6
 l={}
