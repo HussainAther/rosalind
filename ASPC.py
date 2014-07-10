@@ -1,4 +1,4 @@
-import math
+import math 
 n=1689
 m=679
 def nCr(t,r):
