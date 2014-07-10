@@ -15,7 +15,7 @@ for item in l:
 		count+=1
 	else:
 		count+=1
-print p
+print p 
 # k = [ ] 
 # s.close()
 # for i in p:
