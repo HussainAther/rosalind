@@ -9,5 +9,5 @@ def pm(x):
 			a+=1
 		if i =="C":
 			c+=1
-	print math.factorial(a) * math.factorial(c)
+	print math.factorial(a) * math.factorial(c) 
 pm(r)
