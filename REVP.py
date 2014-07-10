@@ -7,7 +7,7 @@ o=[ ]
 o1=[ ]
 for j in s:
 	if j=="A":
-		n+="T"
+		n+="T" 
 	if j=="C":
 		n+="G"
 	if j=="T":
