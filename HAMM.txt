@@ -3,4 +3,4 @@ def point_mut_count(original, mutation):
 	for i in range(len(original)):
 		if mutation[i] != original[i]:
 			count +=1
-	return count
+	return count 
