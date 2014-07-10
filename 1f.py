@@ -1,3 +1,4 @@
+
 from itertools import tee, izip, islice
 s="ACGTTGCATGTCGCATGATGCATGAGAGCT"
 t="TATCTCCAC"
