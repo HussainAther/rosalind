@@ -4,7 +4,7 @@ p=[1]
 k=[ ]
 for i in range(n):
 	for x in range(len(p)):
-		if p[x]==1:
+		if p[x]==1: 
 			p[x]+=1
 		else:
 			p[x]+=1
