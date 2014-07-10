@@ -10,4 +10,4 @@ def dom_phen(k,m,n):
 	p7=(n/t)*(k/(t-1))
 	p8=.5*(n/t)*(m/(t-1))
 	prob=p1+p2+p3+p4+p5+p6+p7+p8
-	return prob
+	return prob 
