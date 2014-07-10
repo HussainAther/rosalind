@@ -4,4 +4,4 @@ for i in a.split(" "):
 	l.append(int(i))
 l.sort()
 for u in l:
-	print u,
+	print u, 
