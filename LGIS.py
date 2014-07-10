@@ -12,4 +12,4 @@ def thing(e):
 				for u in j:
 					print u
 				sys.exit()
-thing(f)
+thing(f) 
