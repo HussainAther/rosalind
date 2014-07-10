@@ -4,7 +4,7 @@ b="103.00919 299.12297 546.18967 679.31502 702.29078 894.40563 918.3654 1049.405
 l1=a.split(" ")
 l2=b.split(" ")
 s=[]
-d={}
+d={} 
 for i in l1:
     for j in l2:
         s.append(round((float(i)-float(j)),5))
