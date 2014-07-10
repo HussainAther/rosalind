@@ -19,7 +19,7 @@ for i in q:
 	for j in i:
 		if e==0:
 			e=i.count(j)
-			d=j
+			d=j 
 		elif i.count(j)>e:
 			e=i.count(j)
 			d=j
