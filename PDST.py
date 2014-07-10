@@ -13,7 +13,7 @@ for line in file:
 a.append(c)
 a.pop(0)
 print a
-f=[ ]
+f=[ ] 
 for x in a:
 	q=""
 	for y in a:
