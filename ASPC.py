@@ -2,7 +2,7 @@ import math
 n=1689
 m=679
 def nCr(t,r):
-	f=math.factorial
+	f=math.factorial 
 	return f(t)/f(r)/f(t-r)
 e=0
 for i in range(m, n+1):
