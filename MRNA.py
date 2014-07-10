@@ -15,7 +15,7 @@ for i in p:
 		z*=3
 	if i=="V":
 		z*=4
-	if i=="S":
+	if i=="S": 
 		z*=6
 	if i=="P":
 		z*=4
