@@ -15,7 +15,7 @@ for line in file:
 a.append(c)
 a.remove("")
 p=[ ]
-for l in a:
+for l in a: 
 	c=180
 	t=tee(l, c)
 	for i, j in enumerate (t):
