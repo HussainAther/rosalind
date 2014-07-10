@@ -3,3 +3,4 @@ for i in p.split(" "):
 	a=float(i)**.5
 	b=1-float(a)
 	print float(i)+(float(a)*float(b)*2),
+ 
