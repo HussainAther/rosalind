@@ -10,3 +10,4 @@ def complement(text):
 		else:
 			new_text+="A"
 	print new_text[::-1]
+ 
