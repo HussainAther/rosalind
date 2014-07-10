@@ -4,4 +4,4 @@ k=math.factorial(84)
 n=math.factorial(76)
 p=k/n
 c=p%1000000
-print c
+print c 
