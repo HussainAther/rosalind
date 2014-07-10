@@ -11,7 +11,7 @@ def mm(x):
 		r1=u
 	else:
 		r1=a
-		n1=u
+		n1=u 
 	if c>g:
 		n2=c
 		r2=g
