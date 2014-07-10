@@ -16,7 +16,7 @@ def perm(a, n):
 	
 def works(y):
 	b=[ ]
-	v=0
+	v=0 
 	for q in range(1, n+1):
 		if y.count(q)==1 or y.count(-q)==1:
 			v+=1
