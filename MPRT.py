@@ -31,7 +31,7 @@ for s in v:
 		next(islice(j, i, i), None)
 	p=["".join(k) for k in izip(*t)]
 	#print p
-	k=[ ]
+	k=[ ] 
 	l=[ ]
 	z=[ ]
 	count=0
