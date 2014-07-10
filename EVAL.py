@@ -6,7 +6,7 @@ f=y.split(" ")
 e=n-(len(d)-1)
 for i in f:
 	gc=float(float(i)/2)
-	at=float((1-float(i))/2)
+	at=float((1-float(i))/2) 
 	g=d.count("G")
 	a=d.count("A")
 	c=d.count("C")
