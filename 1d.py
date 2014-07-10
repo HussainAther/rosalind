@@ -1,3 +1,4 @@
+
 from itertools import tee, izip, islice
 from collections import Counter
 s="TCTGACAAACAACGATTGACTGAAGCTACTTTATGTGCGAATTAGT"
