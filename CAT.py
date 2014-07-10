@@ -1,4 +1,4 @@
-d={"A":"U", "U":"A", "C":"G", "G":"C"}
+d={"A":"U", "U":"A", "C":"G", "G":"C"} 
 def split(x, y):
 	c=0
 	if not x and not y:
