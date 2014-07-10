@@ -3,7 +3,7 @@ import collections
 o=[]
 d=[ ]
 q={ }
-s=[ ]
+s=[ ] 
 l="EWHNZQAXCI"
 w=open("/Users/Mcfoofa/Desktop/rosalindanswers.txt", "a")
 h=enumerate(l)
