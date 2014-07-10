@@ -12,4 +12,4 @@ for j in range(len(t)):
 	for e in c:
 		print e,
 for y in c:
-	print y,
+	print y, 
