@@ -5,4 +5,4 @@ def gc_cont(text):
 		if i=="G" or i=="C":
 			count+=1
 	percent=(count/len(text))*100
-	return percent
+	return percent 
