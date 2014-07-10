@@ -107,7 +107,7 @@ for n in range(len(seg3)):
 for n in range(len(seg4)):
 	if seg4[n]=="ATG": 
 		prot(seg4, n)
-for n in range(len(seg5)):
+for n in range(len(seg5)): 
 	if seg5[n]=="ATG": 
 		prot(seg5, n)
 for z in final:
