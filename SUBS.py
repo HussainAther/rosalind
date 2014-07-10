@@ -15,4 +15,4 @@ for i in p:
 	count+=1
 for item in j:
 	print item,
-		
+		 
