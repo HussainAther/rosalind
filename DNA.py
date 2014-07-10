@@ -14,6 +14,6 @@ def rosalind_dna(s):
 			G+=1
 print A print C print G print T
 
-
+ 
 
 		 
