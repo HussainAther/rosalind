@@ -13,7 +13,7 @@ for line in file:
 		c1+=1
 d[c1]=c
 del d[0]
-for i in d:
+for i in d: 
 	print d[i]
 # file.close()
 # k=" "
