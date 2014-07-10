@@ -5,4 +5,4 @@ for line in s:
 	l.append(line)
 k=l[1::2]
 for item in k:
-	print item, 
+	print item,  
