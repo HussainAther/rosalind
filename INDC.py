@@ -10,4 +10,4 @@ for i in range(n+1):
 	if i<0:
 		a[-i]=((math.factorial(n)/(math.factorial(n-i)*math.factorial(i))))
 for j in range(1, int(len(a))):
-	print 1-float(sum(a[:j])/2**n),
+	print 1-float(sum(a[:j])/2**n), 
