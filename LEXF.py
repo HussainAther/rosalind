@@ -6,7 +6,7 @@ d={ }
 for i in out:
 	c= i[0] + i[1] + i[2] + i[3]
 	d[c]= 0
-print "{"
+print "{" 
 for i in sorted(d.keys()):
 	print "\"" + i + "\"" + ":0," ,
 print "}"
