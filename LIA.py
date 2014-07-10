@@ -13,4 +13,4 @@ for q in range(t+1):
 	s.append((.25**i)*(.75**j)*f)
 	i+=1
 print s
-print sum(s[n:])
+print sum(s[n:]) 
