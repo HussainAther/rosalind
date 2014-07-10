@@ -31,7 +31,7 @@ for l in j:
 	for z in j[l]:
 		if z=="A":
 			d_a[count]+=1
-		if z=="C":
+		if z=="C": 
 			d_c[count]+=1
 		if z=="G":
 			d_g[count]+=1
