@@ -9,4 +9,4 @@ g=d.count("G")
 v=(cg**c)*(cg**g)*(at**a)*(at**t)
 t=(1-v)**s
 e=1-t
-print e
+print e 
