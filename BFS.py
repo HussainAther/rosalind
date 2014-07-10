@@ -22,7 +22,7 @@ print l
 # 					p+=1
 def check(i, p, l):
 	for e in l:	
-		if l[e]:
+		if l[e]: 
 			if str(i) in l[e]:
 				p+=1
 				check(i+1, p, l)
