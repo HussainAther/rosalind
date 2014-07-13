@@ -2,8 +2,8 @@
 
 #Return: The adjacency list corresponding to the de Bruijn graph corresponding to S∪Src.
 
-
 f=open("/Users/Mcfoofa/Downloads/rosalind_dbru.txt", "r")
+o=open("/Users/Mcfoofa/Downloads/rosalind_dbru_2_output.txt", "a")
 a=[]
 a1=[]
 a2=[]
@@ -22,19 +22,24 @@ def complement(text):
 		else:
 			new_text+="A"
 	return new_text[::-1]
-def dbru(a1, a2, b):
+def dbru(a1, a2, b, a):
     for i in a1:
         for j in a2:
             if i[1:]==j[:-1]:
-                if str(i)+", "+str(j) not in b:
-                    b.append(str(i)+", "+str(j))
-                    print str(i)+", "+str(j)
+                if str(i)+str(j[-1]) in a:
+                    if str(i)+", "+str(j) not in b:
+                        b.append(str(i)+", "+str(j))
+                        o.write("("+str(i)+", "+str(j)+")"+"\n")
 for i in f.readlines():
-    a.append(i.replace("\n", ""))
-    a1.append(i.replace("\n", "")[:-1])
-    a3.append(complement(i.replace("\n", "")[:-1]))
-    a2.append(complement(i.replace("\n", "")[1:]))
-dbru(a1, a2, b)
-dbru(a2, a1, b)
-dbru(a3, a4, b)
-dbru(a4, a3, b)
+    i=i.replace("\n", "")
+    a.append(i)
+    a.append(complement(i))
+    a1.append(i[:-1])
+    a2.append(i[1:])
+    a3.append((complement(i[:-1])))
+    a4.append((complement(i[1:])))
+dbru(a4, a3, b, a)
+dbru(a1, a2, b, a)
+#dbru(a2, a1, b)
+#dbru(a3, a4, b)
+
