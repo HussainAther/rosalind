@@ -27,7 +27,7 @@ def dbru(a1, a2, b, a):
         for j in a2:
             if i[1:]==j[:-1]:
                 if str(i)+str(j[-1]) in a:
-                    if str(i)+", "+str(j) not in b:
+                    if str(i)+", "+str(j) not in b: 
                         b.append(str(i)+", "+str(j))
                         o.write("("+str(i)+", "+str(j)+")"+"\n")
 for i in f.readlines():
